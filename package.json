@@ -1,0 +1,25 @@
+{
+  "name": "ratpps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocha": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7"
+  },
+  "dependencies": {
+    "big.js": "^6.0.3",
+    "chai": "^4.2.0",
+    "jsdom": "^16.4.0",
+    "xml-parse": "^0.4.0"
+  }
+}
