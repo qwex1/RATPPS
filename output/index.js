@@ -6,14 +6,14 @@ function output(input) {
     let i = 0
     for (let item of input.Sums) {
         SumResult = Big(SumResult).plus(Big(item))
-        SortedInputs[i] = item
+        SortedInputs[i] = item / 1.0
         i++
     }
     SumResult = Big(SumResult).times(Big(input.K))
     SumResult = Big(SumResult).toFixed(2)
     for (let item of input.Muls) {
         MulResult *= item
-        SortedInputs[i] = item
+        SortedInputs[i] = item * 100 / 100
         i++
     }
     SortedInputs.sort((a, b) => a - b)
